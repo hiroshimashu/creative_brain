@@ -738,10 +738,11 @@ _:-ms-lang(x), #function-title2 {
         line-height : 25px;
         letter-spacing : 1.4px;
         color : #231F20;
+        text-align: justify;
+
     }
 
     .about-main-small-wrapper p {
-        text-align: justify;
     }
 
     .about-main-small-wrapper #s1-small {
