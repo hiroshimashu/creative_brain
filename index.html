@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -6,19 +7,10 @@
     <title>collage-zero</title>
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="icon" type="image/png" href="img/collage-zero-logo.png" size = "32x32">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosansjp.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300&amp;subset=japanese" rel="stylesheet">
     <script src="https://use.typekit.net/dmv7gja.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113002080-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-113002080-1');
-    </script>
 </head>
 <body>
 <div>
@@ -28,11 +20,16 @@
                 <div class="header-logo-wrapper">
                     <img src = "img/creative_brain_logo_small.svg" class = "header-logo" />
                 </div>
-                <div class="login-wrapper">
-                    <img src = "img/login_button.svg" class="login" />
-                </div>
-                <div class="apply-wrapper">
-                    <img src = "img/apply_button.svg" class = "apply" />
+                <div class="button-wrapper">
+                    <a href = "https://www.creative-brain.jp" target="_blank">
+                        <div class="login-wrapper">
+                            <img src = "img/login_button.svg" class="login" />
+                        </div>
+                    </a>
+                    <div class="apply-wrapper">
+                        <img src = "img/apply_button.svg" class = "apply" />
+                    </div>
+
                 </div>
             </div>
             <div class = "top-main-wrapper">
@@ -71,22 +68,13 @@
                 <img src = "img/screen_image_1.svg" class="about-image">
             </div>
         </div>
-        <div class="about-explain-wrapper">
+        <div class="about-explain-wrapper fadein">
             <div class = "about-explain-title-wrapper">
                 <img src = "img/about_explain_title.svg" class="about-explain-title"/>
             </div>
             <div class = "about-explain">
                 <p>
-                    CM総合研究所が保有するTVCM好感度のビッグデータをもとに、新規に
-                </p>
-                <p id = "l2">
-                    制作するCMの好感度を企画段階から事前予測することができるオリジ
-                </p>
-                <p id = "l3">
-                    ナルシステムです。CM好感度の予測により、CM企画の選定／CM企画の
-                </p>
-                <p>
-                    改善など、データに基づいた判断が可能となります
+                    CM総合研究所が保有するTVCM好感度のビッグデータをもとに、新規に制作するCMの好感度を企画段階から事前予測することができるオリジナルシステムです。CM好感度の予測により、CM企画の選定／CM企画の改善など、データに基づいた判断が可能となります
                 </p>
             </div>
         </div>
@@ -96,27 +84,21 @@
                     How to use CREATIVE BRAIN
                 </p>
             </div>
-            <div class="how-to-use-image-wrapper">
+            <div class="how-to-use-image-wrapper fadein">
                 <img src = "img/image_screen_2.svg" class="how-to-use-image">
             </div>
         </div>
         <div class = "how-to-use-main-wrapper">
-            <div class="how-to-use-main-title-wrapper">
+            <div class="how-to-use-main-title-wrapper fadein-how-title">
                 <img src = "img/how-title.svg" class = "how-to-use-main-title" />
             </div>
-            <div class = "how-to-use-main">
+            <div class = "how-to-use-main fadein-how-title">
                 <p id = "s1">
-                    CM企画をテキストに落とした字コンテを字コンテ入力するだけで、
-                </p>
-                <p>
-                    CREATIVE BRAINがそのCMの獲得好感度を予測します。CM好感度予
-                </p>
-                <p>
-                    測は、サービスの契約期間中何度でもご利用いただけます。
+                    CM企画をテキストに落とした字コンテを入力するだけで、CREATIVE BRAINがそのCMの獲得好感度を予測します。CM好感度予測は、サービスの契約期間中何度でもご利用いただけます。
                 </p>
             </div>
             <div class="function-wrapper">
-                <div class="function-title-wrapper">
+                <div class="function-title-wrapper fadein">
                     <p id ="function-title1">
                         | CM好感度予測 |
                     </p>
@@ -124,7 +106,7 @@
                         下記の3項目が予測可能です
                     </p>
                 </div>
-                <div class="function1-wrapper">
+                <div class="function1-wrapper fadein">
                     <div class="function1-title-wrapper">
                         <p id = "function-title3">[1] CM好感度ランク予測</p>
                         <p id = "function-subtitle">
@@ -135,7 +117,7 @@
                         <img src="img/result1.png" alt="fun1" class="function1-image">
                     </div>
                 </div>
-                <div class="function2-wrapper">
+                <div class="function2-wrapper fadein">
                     <div class="function2-title-wrapper">
                         <p id = "function-title4">[2] CM好感要因予測</p>
                         <p id = "function-subtitle2">
@@ -146,7 +128,7 @@
                         <img src="img/result2.png" alt="func2" class="function2-image">
                     </div>
                 </div>
-                <div class="function3-wrapper">
+                <div class="function3-wrapper fadein">
                      <div class="function3-title">
                          <p id = "function-title5">
                              [3] 性年代別好感度予測
@@ -159,12 +141,12 @@
                          <img src="img/result3.png" alt="func3" class="function3-image">
                      </div>
                 </div>
-                <div class = "coming-soon">
+                <div class = "coming-soon fadein">
                     <p>
                         Other Function Coming Soon...
                     </p>
                 </div>
-                <div class="info-wrapper">
+                <div class="info-wrapper fadein">
                    <div class="info-logo-wrapper">
                        <img src="img/creative_brain_logo.svg" alt="info-logo" class="info-logo">
                    </div>
@@ -219,9 +201,11 @@
                 <div class="go-top-wrapper">
                     <img src="img/go_top.svg" alt="go-top" class="go-top">
                 </div>
-                <div class="contact-wrapper">
-                    <img src="img/contact.svg" alt="contact" class="contact">
-                </div>
+                <a href="mailto:info@creative-brain.jp">
+                    <div class="contact-wrapper">
+                        <img src="img/contact.svg" alt="contact" class="contact">
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -348,7 +332,7 @@
                             株式会社 東京企画 (CM総合研究所)
                         </p>
                         <p id ="cm-company-address-small">
-                            〒105-0011 東京都港区芝公園1-7-6 (CROSS PLACE 浜松町 2F) TEL 03-6435-7760
+                            〒105-0011 東京都港区芝公園1-7-6 <br/> (CROSS PLACE 浜松町 2F) TEL 03-6435-7760
                         </p>
                         <p id ="representative-small">
                             担当:小島ダミー
@@ -357,7 +341,7 @@
                     <div class="mail1-small-wrapper">
                         <img src="img/mail1.svg" alt="mail1" class="mail1-small">
                     </div>
-                    <div class="info-apply-small-wrapper">
+                    <div class="info-system-small-wrapper">
                         <p id ="info-apply-title-small">
                             [システムに関して]
                         </p>
@@ -365,7 +349,7 @@
                             株式会社コラージュ・ゼロ
                         </p>
                         <p id ="cm-company-address-small">
-                            〒106‐0032 東京都港区六本木5-9-20 六本木イグノポール505 TEL:03-5785-2053
+                            〒106‐0032 東京都港区六本木5-9-20<br/> 六本木イグノポール505 TEL:03-5785-2053
                         </p>
                         <p id ="representative-small">
                             担当:小島 拓也
@@ -377,13 +361,22 @@
                     </div>
 
                     <div class = "caution-wrapper-small">
-                        <p>
+                        <p id = "m1">
                             ※「CREATIVE BRAIN」は株式会社コラージュ・ゼロの登録商標です。
                         </p>
-                        <p>
+                        <p id = "m2">
                             ※「ＣＭ好感度」は株式会社東京企画(ＣＭ総合研究所)の登録商標です。
                         </p>
                     </div>
+
+                    <div class="go-top-small-wrapper">
+                        <img src="img/go_top.svg" alt="go-top" class="go-top">
+                    </div>
+                    <a href="mailto:info@creative-brain.jp">
+                        <div class="contact-small-wrapper">
+                            <img src="img/contact.svg" alt="contact" class="contact">
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -391,6 +384,40 @@
     </div>
 
 </div>
+<script>
+    $(function() {
 
+        //ページ内スクロール
+        $("div.apply-wrapper").click(function () {
+            var info = $(".info-title-wrapper").offset().top;
+            $('html,body').animate({ scrollTop: info }, 1000);
+            return false;
+        });
+
+        $(".go-top-wrapper").click(function() {
+            $('html,body').animate({ scrollTop: 0 }, 1000);
+            return false;
+        })
+
+        // Scroll fade-in animation
+        var scrollAnimationElm = document.querySelectorAll("[class*='fadein']");
+        var scrollAnimationFunc = function () {
+            for (var i = 0; i < scrollAnimationElm.length; i++) {
+                var triggerMargin = 300;
+                var elm = scrollAnimationElm[i];
+                var showPos = 0;
+                showPos = elm.getBoundingClientRect().top + triggerMargin;
+                if (window.innerHeight > showPos) {
+                    var delay = (elm.dataset.sa_delay)? elm.dataset.sa_delay : 0;
+                    setTimeout(function(index) {
+                        scrollAnimationElm[index].classList.add('scrollin');
+                    }.bind(null, i), delay);
+                }
+            }
+        }
+        window.addEventListener('load', scrollAnimationFunc);
+        window.addEventListener('scroll', scrollAnimationFunc);
+    });
+</script>
 </body>
 </html>
