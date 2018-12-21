@@ -670,6 +670,7 @@ _:-ms-lang(x), .caution-wrapper p {
     .small-screen-wrapper {
         display: block;
         width: 100%;
+        height: 3456px;
     }
 
     .header-small-wrapper {
@@ -853,7 +854,7 @@ _:-ms-lang(x), .caution-wrapper p {
     .how-to-use-main-small-wrapper {
         position: relative;
         z-index: 1;
-        height: 1840px;
+        height: 1950px;
         background: #F6F6F6;
     }
 
@@ -879,7 +880,7 @@ _:-ms-lang(x), .caution-wrapper p {
     .how-to-use-main-explain-wrapper {
         position: absolute;
         width: 275px;
-        top: 96.35px;
+        top: 116.35px;
         left: 50%;
         transform: translateX(-50%);
         text-align: justify;
@@ -934,6 +935,7 @@ _:-ms-lang(x), .caution-wrapper p {
         left: 50%;
         transform: translateX(-50%);
         width: 280px;
+        height: 1480px;
     }
 
     .function1-title-small-wrapper {
