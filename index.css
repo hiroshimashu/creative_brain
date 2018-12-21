@@ -271,7 +271,7 @@ p {
     font-size : 15px;
     letter-spacing : 1.5px;
     line-height: 27px;
-    font-weight: 100;
+    font-weight: 300;
     width: 550px;
     color : #231F20;
     left: 50%;
@@ -337,12 +337,21 @@ p {
     background: #F6F6F6;
 }
 
+_:-ms-lang(x), .how-to-use-main-wrapper {
+    height: 2247.215px;
+}
+
 .how-to-use-main-title-wrapper {
     position: absolute;
-    width: 359.461px;
+    width: 410.461px;
     top: 50.33px;
     left: 50%;
+    font-size : 22px;
+    line-height : 38px;
+    letter-spacing :1.2px;
+    color : #231F20;
     transform:translateX(-50%);
+    text-align: center;
 }
 
 .how-to-use-main {
@@ -350,7 +359,7 @@ p {
     font-size : 15px;
     letter-spacing : 1.5px;
     line-height: 27px;
-    font-weight: 100;
+    font-weight: 300;
     width: 550px;
     color : #231F20;
     left: 50%;
@@ -403,6 +412,10 @@ _:-ms-lang(x), #function-title2 {
 
 .function1-wrapper {
     margin-top: 74.08px;
+}
+
+_:-ms-lang(x), .function1-wrapper {
+   margin-top: 34.08px;
 }
 
 .function1-image-wrapper {
@@ -506,7 +519,7 @@ _:-ms-lang(x), .function3-wrapper #function-title5 {
 
 .info-wrapper {
     position: relative;
-    font-weight: 100;
+    font-weight: 300;
     width: 710.844px;
     margin-top: 203.571px;
 }
@@ -840,7 +853,7 @@ _:-ms-lang(x), .caution-wrapper p {
     .how-to-use-main-small-wrapper {
         position: relative;
         z-index: 1;
-        height: 1800px;
+        height: 1840px;
         background: #F6F6F6;
     }
 
@@ -851,12 +864,16 @@ _:-ms-lang(x), .caution-wrapper p {
         top: 28.353px;
         left: 50%;
         transform: translateX(-50%);
+        text-align: center;
     }
 
     .how-to-use-main-small-title {
         position: relative;
         width: 100%;
         height: auto;
+        font-size : 17.5px;
+        line-height : 28px;
+        letter-spacing : 1.7px;
     }
 
     .how-to-use-main-explain-wrapper {
@@ -891,7 +908,7 @@ _:-ms-lang(x), .caution-wrapper p {
     .function-title-small-wrapper {
         position: absolute;
         width: 275px;
-        top: 340px;
+        top: 275px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -913,7 +930,7 @@ _:-ms-lang(x), .caution-wrapper p {
 
     .function-main-wrapper {
         position: absolute;
-        top: 420.8px;
+        top: 365.8px;
         left: 50%;
         transform: translateX(-50%);
         width: 280px;
